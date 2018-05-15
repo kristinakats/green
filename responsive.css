@@ -7,6 +7,9 @@
     margin-right: auto;
     margin-top: 1px;
 }
+ .ul-links li, .ul-links2 li {
+    font-size: 15px;
+}   
 
     .facebook2{
         display: unset;
@@ -50,13 +53,14 @@
 
 .main-nav {
     position: absolute;
+     z-index: 11;
     max-width:calc(100% - 0px);
-    top: 2%;
+    top: 22px;
     left: 0%;
-    transform: translate(0%, -59%); */
+    transform: translate(0, 0);
     display: inline;
-    background-color: #1d6562;
-    opacity: 0.9;
+    background-color: rgba(29, 101, 98, 0.97);
+    opacity: 1;
     height: 78px;
     overflow: hidden;
     border-radius: 0px 0px 0px 0px;
@@ -68,22 +72,24 @@
     }
 
 .logo2 img{
- width: 167px;
- top: -37px;
+    width: 167px;
+    top: -34px;
     }
 .logo2{
   display: inline;
+  z-index: 12;
 }
 .logo{
   display: none;
 }
 ul#nav-li {
     max-width: 100%;
+
 /*    height: auto;
     margin: auto;
     /* margin-top: 42px; */
-    /*top: 232px*/
-    transform: translate(-50%, 60%);
+    top: 72px;
+    /*transform: translate(-50%, 60%);*/
 }
 .nav-ul li{
     display: block;
@@ -98,15 +104,28 @@ ul#nav-li {
     padding-top: 16px;
     padding-left: 25px;
     padding-right: 22px;
-    padding-bottom: 17px;
+    padding-bottom: 25px;
     height: 0px;
+    font-size: 18px;
     top: 0px;
     text-align: center;
   
 }
+.bx-wrapper .bx-controls-direction a {
+/*    margin-left: 111px;
+    margin-right: 115px;
+    margin-top: 14px !important;*/
+ }   
 
-
-
+div.bx-pager.bx-default-pager {
+    margin-left: -6px !important;
+    margin-bottom: -17.5px !important;
+    margin-top: -13.5px !important;
+    top: 0px !important; 
+}
+.bx-pager.bx-default-pager a.active {
+    background: #989292 !important;
+}
 .nav-right{
  visibility: hidden;
     }
@@ -185,9 +204,12 @@ ul#nav-li {
 /*    width: 176px;
     bottom: 0px;*/
     }
+
+
+
     .inner-sec-cont2 .bx-wrapper .bx-viewport {
      top: 0px; 
-     margin-left: 0px; */
+     margin-left: -5px;
      overflow: visible !important; 
 }
 
@@ -196,7 +218,10 @@ ul#nav-li {
    
 }
 .bx-controls.bx-has-controls-direction {
-    top: 56px;
+    max-width: 79px;
+    margin: auto;
+    height: 20px;
+    top: 108px;
 }
 
    .third-cont {
@@ -238,13 +263,14 @@ ul#nav-li {
 
 .sec-input {
 float: none;
+    float: none;
     max-width: 320px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    /* left: 50%; */
+    /* top: 50%; */
+    transform: translate(-8%, -50%);
     /* padding-left: 0px; */
     display: inline;
-    margin-top: 17px;
+    margin-top: 33px;
     margin: top;
     /* margin-left: 3%; */
     /* margin: 17px; */
@@ -333,11 +359,12 @@ float: none;
 
 .parallelogram-sec {
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    margin-left: 0px; 
-
+    /* top: 50%; */
+    transform: translate(-51%, 38%);
+    margin-left: 0px;
 }
+
+
 .color-h span{
     top: 0px;
 }
@@ -378,8 +405,10 @@ float: none;
 
 .burger {
     display: unset;
-    left: 72%;
-    top: 15px;
+    z-index: 12;
+    left: 74%;
+    height: 69px;
+    top: 25px;
  }
  .burger button{
    background-color: transparent;
@@ -387,12 +416,13 @@ float: none;
  }
     }
 
+
     
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
  .main-nav {
     width: 688px;
     left: 53%;
-    top: 6%;
+    top: 72px;
     border-radius: 0px 0px 0px 0px;
 }
 .nav-ul li {
@@ -422,8 +452,16 @@ float: none;
 .text {
     width: 620px;
 }
+
+.text1, .text2{
+ max-width: 639px !important; 
+}
+.text1bx-clone,.text2bx-clone{
+ max-width: 639px !important; 
+}
 .inner-shape {
-    transform: skew(1deg);
+    transform: skew(0deg);
+    margin-left: 16px;
 }
 .right-photos {
     margin-top: -523px;
@@ -433,7 +471,7 @@ float: none;
 .footer-inner {
     padding-left: 32px;
 }
-}
+
 .google-map img{
     width: 118%;
 }
@@ -458,13 +496,13 @@ float: none;
 
 
 
-@media only screen and (min-device-width:1024px){
+@media only screen and (min-device-width:1024px)and (max-device-width:1440px){
 .main-nav {
-    top: 5%;
+    top: 72px;
 }
 .footer-inner{ 
-    padding-left: 215px;
- 
+   padding-left: 0px;
+   max-width: 945px; 
 }
     }
 
@@ -516,7 +554,7 @@ h1.H1 {
 
 @media only screen and (min-device-width: 412px) and (max-device-width: 732px) and (orientation: landscape) { 
    .main-nav {
-    top: 2%;
+    top: 21px;
     width: 736px;
  }  
   .inner-sec-cont2 {
@@ -539,10 +577,10 @@ h1.H1 {
     width: 640px;
 }
 }
-@media only screen and (max-width: 1440px)  { 
+/*@media only screen and (max-width: 1440px)  { 
   .footer-inner {
     padding-left: 0px;
     max-width: 710px;
 
 }
-}
+}*/

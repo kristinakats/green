@@ -20,7 +20,7 @@ html, body{
 }
 .bot-div {
   height: 65px;
-  top: -134px;
+  top: -135px;
   background: rgba(255,255,255,0.53);
   background: -moz-linear-gradient(top, rgba(255,255,255,0.53) 0%, rgba(255,255,255,1) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0.53)), color-stop(100%, rgba(255,255,255,1)));
@@ -213,7 +213,7 @@ float: right;
 
 }
 .burger img{
-  width: 75px;
+  width: 67px;
 }
 
 .burger{
@@ -230,7 +230,7 @@ float: right;
    width: 922px;
     top: 3%; /* Top of element would appear in the centre */
     left: 52%; /* Left of element would appear in the centre */
-    transform: translate(-50%, 60%);
+    transform: translate(-50%, 56%);
     display: inline;
     background-color: #1d6562;
 opacity: 0.9;
@@ -267,7 +267,7 @@ padding-left: 59px;
 }
 
 li.li-six{
- border-right: 0.5px solid #175e5c; 
+ border-right: 0px solid #175e5c; 
 }
 
 
@@ -280,7 +280,7 @@ li.li-six{
 .second-container{
   max-width:100%;
   margin:0 auto;
-  margin-top: -154px;
+  margin-top: -135px;
  
 
 }
@@ -296,7 +296,16 @@ max-width: 949px;
 margin: auto;
 overflow: hidden;
 }
+p.more {
 
+    margin-top: 89px;
+    margin-left: 199px;
+    font-weight: bold;
+    font-style: italic;
+    color: #ffffff;
+    color: ffffff;
+
+}
 .man-photo{
     float: left;
     z-index: 1;
@@ -320,12 +329,17 @@ overflow: hidden;
     font-size: 11px;
     font-weight: bold;
     margin-left: 126px;
-    width: 822px;
+   /* width: 811px !important;*/
     /*bottom: 120px;*/
 }
 
-
-
+.text1, .text2{
+ max-width: 811px !important; 
+}
+.text1bx-clone,.text2bx-clone{
+ max-width: 811px !important; 
+ display: none !important;
+}
 /*GREEN*/
 .green1{
   float: left;
@@ -680,6 +694,7 @@ top: 5px;
   float: left;
   padding-left: 62px;
   margin-top: 16px;
+  padding-left: 0px;
 
 }
 
@@ -778,10 +793,27 @@ h4{
 
 .inner-sec-cont2 .bx-wrapper .bx-viewport {
  top: -90px;
- margin-left: 20px;
-height: 68px;
+ margin-left: 12px;
+ height: 92px !important;
+/*overflow: visible !important;*/
 
 }
 
+.inner-sec-cont2 .bx-wrapper{
+  margin-bottom: -45px !important;
+}
+   .bx-controls.bx-has-controls-direction {
+    max-width: 79px;
+    margin: 0 auto;
+    top: -67px;
+}
+.bx-wrapper .bx-controls-direction a {
+    margin-right: -13px !important;
 
+}
+div.bx-pager.bx-default-pager{
+      /* width: 44px; */
+    margin: auto !important;
+    top: -82px !important;
 
+}

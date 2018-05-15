@@ -4,7 +4,7 @@ $(document).ready(function(){
   });
 
   $('.text').bxSlider({
-     adaptiveHeight: true,
+     // adaptiveHeight: false,
      // mode: 'fade',
      speed: 200,
      pager:false,
