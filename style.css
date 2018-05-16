@@ -312,7 +312,7 @@ p.more {
     margin-top: 20px;
     width: 120px;
     height: 120px;
-    background-image: url(man.png);
+    background-image: url(./photos/man.png);
     background-position: right -6px top -20px;
     display: block;
     border: 2px solid white;
@@ -421,10 +421,11 @@ p{
     right: 30px;
 }
 .sec-cont-head2{
-    left: 0px;
-    bottom: 166px;
     width: 20px;
     padding-left: 29px;
+    padding-left: 23px;
+    bottom: 183px;
+    right: 30px;
 }
 /*.img-circle{*/
 
@@ -445,7 +446,7 @@ span.Byr-p {
 .third-cont{
   max-width:auto;
   height: 539px;
-  background: url(green2.png) center center no-repeat;
+  background: url(./photos/green2.png) center center no-repeat;
   background-size: cover;
           box-shadow: 
         inset 0px 13px 23px -10px rgba(0, 0, 0, 0.7),
@@ -479,7 +480,7 @@ max-width: 300px;
     height: 178px;
     background-repeat: no-repeat;
     background-size: 100% 50%;
-    background-image: url(people.png);
+    background-image: url(./photos/people.png);
     background-position: right -64px top -3px;
     background-size: 192%;
     display: block;
@@ -494,7 +495,7 @@ max-width: 300px;
     margin-top: 9px;
     width: 178px;
     height: 178px;
-    background-image: url(light.png);
+    background-image: url(./photos/light.png);
     background-position: center;
     background-size: cover;
     display: block;
@@ -535,7 +536,7 @@ max-width: 300px;
   width: 65px;
   height: 60px;
   margin-right: 5px;
-  background: url(bl-circle.png) center center no-repeat;
+  background: url(./photos/bl-circle.png) center center no-repeat;
   transform: skew(2deg);
 
 }
@@ -656,7 +657,7 @@ top: 5px;
 .footer{
     max-width: auto;
     height: 390px;
-    background: url(footer.png) center center no-repeat;
+    background: url(./photos/footer.png) center center no-repeat;
     background-size: cover;
 }
 .footer-inner{

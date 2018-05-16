@@ -227,7 +227,7 @@ div.bx-pager.bx-default-pager {
    .third-cont {
     max-width: auto;
     height: 832px;
-    background: url(green2.png) center center no-repeat;
+    background: url(./photos/green2.png) center center no-repeat;
     background-size: cover;
     box-shadow: inset 0px 13px 23px -10px rgba(0, 0, 0, 0.7), inset 0px -15px 11px -10px rgba(0, 0, 0, 0.7);
 }
